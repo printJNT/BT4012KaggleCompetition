@@ -197,8 +197,7 @@ flowchart TD
 | **Iter 2** | Full retrain + 14 Graph Topologies | 179 | Single Model | `0.94288` | `0.99762` | PageRank, WCC, 2-hop flows (+0.00101). |
 | **Iter 3** | Macro Detrending + 5-Seed Bagging | 185 | 5-Seed Bagged | `0.94542` | `0.99764` | Stabilized time-proxy drift (+0.00254). |
 | **Iter 4** ⭐ | **1-Hop Neighbor Ego-Networks** | **198** | **5-Seed Bagged** | **`0.94997`** | **`0.99767`** | **Peer transaction visibility (+0.00455). Selected Submission 1.** |
-| **Iter 5** | Extended Ego-Networks + Dual Arch | 210 | 10-Model Dual | `0.95261` | `0.99778` | Deeper tree diversity (+0.00264). |
-| **Iter 6** ⭐ | **Dynamic Z-Scores + 25 Ego-Feats** | **216** | **10-Model Dual** | **`0.94857`** | **`0.99782`** | **Highest Offline Val AUC. Macro-normalized. Selected Submission 2.** |
+| **Iter 5** ⭐ | **Dynamic Z-Scores + 25 Ego-Feats** | **216** | **10-Model Dual** | **`0.94857`** | **`0.99782`** | **Highest Offline Val AUC. Macro-normalized. Selected Submission 2.** |
 
 ---
 
